@@ -10,6 +10,9 @@ After creating and downloading your project:
     as the **Default project** and run EntityFramework's
     '**Update-Database**' command. This will create the database. You
     can then change the **connection string** in the web.config.
+-   Since it uses **libman**, go to **Web.Mvc** project. Right click to **libman.json** file. Then click to **Restore Client-Side Libraries**.
+
+    (If you are not using Visual Studio and/or you are on a mac you can use [Libman CLI](https://github.com/aspnet/LibraryManager/wiki/Using-LibMan-CLI) . After installing it while in **Web.Mvc** folder run `libman restore`)
 -   Run the application. The default username is '**admin**' and the password is
     '**123qwe**'.
 
